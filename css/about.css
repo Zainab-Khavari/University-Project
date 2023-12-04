@@ -1,0 +1,42 @@
+.about-header{
+    min-height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("../imgs/aboutBGI.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+
+h1{
+    color: #fff;
+    margin-top: 50px;
+}
+
+.row{
+    width: 80%;
+    margin: auto;
+    padding: 100px 0;
+}
+
+.about-col{
+    flex-basis: 45%;
+}
+
+.about-col img{
+    width: 100%;
+}
+
+.about-col p{
+    margin-bottom: 20px;
+}
+
+.about-col a, .comment-box button{
+    color:  #f44336;
+    border: 1px solid #f44336;
+    margin-top: 100px;
+}
+
+.about-col a:hover, .comment-box button:hover{
+    color: #fff;
+}

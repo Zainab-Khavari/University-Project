@@ -1,0 +1,45 @@
+.blog-content{
+    width: 90%;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+.blog-left{
+    flex-basis: 63%;
+}
+
+.blog-left img{
+    width: 100%;
+}
+
+.blog-content h2{
+    color: #222;
+    font-size: 30px;
+    margin: 30px 0px;
+}
+
+.blog-content p{
+    text-align: justify;
+}
+
+.blog-right{
+    flex-basis: 31%;
+}
+
+.blog-right h3{
+    background-color: #f44336;
+    color: #fff;
+    padding: 7px 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.blog-right div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(47, 46, 46);
+    padding: 8px;
+    font-weight: bold;
+}

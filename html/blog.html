@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Wbsite Design</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/about.css">
+    <link rel="stylesheet" href="../css/blog.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d9a91cb739.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="about-header">
+        <nav>
+            <a href="index.html"><img src="../imgs/logo.png"></a>
+            <div class="nav-links" id="nav">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="../html/about.html">ABOUT</a></li>
+                    <li><a href="../html/courses.html">COURSE</a></li>
+                    <li><a href="../html/blog.html">BLOG</a></li>
+                    <li><a href="../html/contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our University Blog</h1>
+    </section>
+    
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="../imgs/blogImg.png" alt="">
+                <h2>Our Certificate & Online Programs For 2022</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est blanditiis, eligendi nostrum, adipisci officia velit quia corporis temporib
+                <br>
+                <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas a quas dolores nemo laborum accusamus quibusdam molestias doloremque in consequuntur iure, quo libero sit obcaecati veniam sapiente. Eligendi reiciendis est numquam explicabo, eaque ad facere! Consequuntur, voluptas eaque, ipsa maiores vero facere esse voluptates cumque similique rerum sit sequi alias.
+                <br>
+                <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nemo libero excepturi maxime, sapiente debitis odit. Nemo rem dolor amet quis odit, facilis laudantium, laboriosam architecto animi debitis tempore atque id, corrupti non illo reiciendis velit dolorem veniam? Cupiditate neque libero recusandae doloribus delectus molestiae doloremque harum labore reprehenderit eum?<br>
+                <br>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente iusto quae ex voluptatibus minus voluptates quod et voluptatem molestiae corrupti incidunt eligendi neque sint nostrum, nam maxime animi doloribus quas!</p>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <Footer class="footer">
+        <h3>About Us</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique voluptatibus, aliquam, esse consectetur explicabo eligendi blanditiis reprehenderit cupiditate velit obcaecati nisi, veniam quo beatae minus in suscipit quod placeat consequatur!</p>
+        <div>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+        <p>made with <i class="fa-solid fa-heart"></i> by code4fun</p>
+    </Footer>
+    <script>
+        var navigation = document.getElementById("nav");
+        function showMenu(){
+            navigation.style.right = "0px";
+        }
+        function hideMenu(){
+            navigation.style.right = "-150px";
+        }
+    </script>
+</body>
+</html>
